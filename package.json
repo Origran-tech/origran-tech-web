@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "material-components-web": "^12.0.0",
+    "material-design-icons": "^3.0.1",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
