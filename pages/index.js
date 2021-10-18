@@ -21,7 +21,7 @@ export default function Home() {
         <p>
           Nous sommes une entreprise basée en essonne. Nous dévelopons des sites
           internet en next.js pour vous. Nous avons aussi des projets de
-          développement interne comme lesipake, miange sim 2 et d'autres encore.
+          développement interne comme lesipake, minage sim 2 et d&apos;autres encore.
         </p>
         <h1>Nos projets</h1>
         <div className="projects">
@@ -51,8 +51,8 @@ export default function Home() {
           width="540"
           height="710"
           src="https://e4921acd.sibforms.com/serve/MUIEANsvC8dp6zEBet3rBXEe4SZdfPRfeqVaGt5DATWQIt377r3XwSk6A9G5NBrDh88yqrV2cJaiSh8fwaVSLOk5XunHhKilGbckq7YzKbnZjyH0vXumKGivnFrqByMk3pZzuNUWlVYzedS3fRi3tw7T6lsy1bboQKqay1AgXO07utoR5CiaSQAOKcCtuXBDm8FJLOalk3fkXt_s"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
           style={{
             display: "block",
             marginLeft: "auto",
