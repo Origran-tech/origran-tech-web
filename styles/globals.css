@@ -10,10 +10,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  min-height: 100vh;
+  background-attachment: fixed;
   background-image: url(./../public/background1.png);
   background-repeat: no-repeat;
-  background-size: 100% ;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 a {
@@ -24,41 +25,63 @@ a {
 * {
   box-sizing: border-box;
 }
-h1{
+h1 {
   font-size: 70px;
-  padding: 10px;
-  margin: 0;
-  /*font-family: "Wingdings";*/
+  margin: 50px auto;
 }
-p {
-  /*font-family: "Wingdings";*/
-}
-footer{
+footer {
   position: fixed;
   bottom: 0;
-  max-height: 40px;
+  height: 40px;
   background-color: white;
   width: 100%;
   text-align: center;
 }
-img{
-  max-height: 500px;
+.img1 {
+  height: 500px;
 }
-.flexPannel{
+.lesipakeimg {
+  height: 100%;
+  max-height: 240px;
+}
+.projects {
   display: flex;
+  flex-wrap: wrap;
 }
-.leftPannel, .rightPannel{
-  padding: 150px 0px;
-  background-color: #e7e5e5;
-  max-width: 100%;
-  width: 100%;
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+  padding: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin: 0 auto 50px;
 }
-.rightPannel{
-  background-color: rgba(231, 229, 229, 0.5);
+.pannel1 {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background: linear-gradient(145deg, #f0f0f2, #cacacb);
+  box-shadow: 20px 20px 60px #bebec0, -20px -20px 60px #ffffff;
 }
-.rightPannel p, h1 {
+.pannels {
+  padding: 50px 100px;
+  margin: 50px 50px 90px 50px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  align-content: center;
+}
+.pannels p,
+h1 {
   text-align: center;
-}
-.pannel3{
-  background-color: white;
 }

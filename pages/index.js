@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,18 +13,53 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div className="flexPannel">
-        <div className="leftPannel">
-          <img src="logo.png" alt="logo de l'entreprise"></img>
+      <div className="pannels">
+        <div className="pannel1">
+          <img src="logo.png" alt="logo de l'entreprise" className="img1"></img>
         </div>
-        <div className="rightPannel">
-          <h1>Notre entreprise</h1>
-          <p>Nous sommes une entreprise basée en essonne. Nous dévelopons</p>
-        </div>
-      </div>
-      <div className="pannel3">
+        <h1>Notre entreprise</h1>
+        <p>
+          Nous sommes une entreprise basée en essonne. Nous dévelopons des sites
+          internet en next.js pour vous. Nous avons aussi des projets de
+          développement interne comme lesipake, miange sim 2 et d'autres encore.
+        </p>
         <h1>Nos projets</h1>
-        <div className="flexPannel"><div><img src/><h1>Lesipake</h1><p></p></div></div>
+        <div className="projects">
+          <Link href="https://www.lesipake.origran.com">
+            <a className="project">
+              <img src="lesipake.png" className="lesipakeimg" />
+              <h1>Lesipake</h1>
+              <p>Un site dictionaire</p>
+            </a>
+          </Link>
+          <Link href="https://www.minage.origran.com">
+            <a className="project">
+              <img src="lesipake.png" className="lesipakeimg" />
+              <h1>Minage sim 2</h1>
+              <p>Un jeu de minage</p>
+            </a>
+          </Link>
+          <Link href="https://www.origran.com">
+            <a className="project">
+              <img src="logo.png" className="lesipakeimg" />
+              <h1>A venir</h1>
+              <p>A venir</p>
+            </a>
+          </Link>
+        </div>
+        <iframe
+          width="540"
+          height="710"
+          src="https://e4921acd.sibforms.com/serve/MUIEANsvC8dp6zEBet3rBXEe4SZdfPRfeqVaGt5DATWQIt377r3XwSk6A9G5NBrDh88yqrV2cJaiSh8fwaVSLOk5XunHhKilGbckq7YzKbnZjyH0vXumKGivnFrqByMk3pZzuNUWlVYzedS3fRi3tw7T6lsy1bboQKqay1AgXO07utoR5CiaSQAOKcCtuXBDm8FJLOalk3fkXt_s"
+          frameborder="0"
+          allowfullscreen
+          style={{
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            maxWidth: "100%",
+          }}
+        ></iframe>
       </div>
       <footer>
         <p>&copy; Website by origran technology</p>
