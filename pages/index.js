@@ -29,7 +29,7 @@ export default function Home() {
         buisness ou non.
       </p>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
-        <Image width="760" height="653" src="/../public/blob1.png"></Image>
+        <Image width="760" height="653" src="/blob1.png"></Image>
         <p className="text-origran-white text-3xl text-center m-8 mb-0">
           Votre site web sera opitmisé SEO,
           <br />
@@ -48,7 +48,7 @@ export default function Home() {
           <br />
           pour vous !
         </p>
-        <Image width="660" height="588" src="/../public/blob2.png"></Image>
+        <Image width="660" height="588" src="/blob2.png"></Image>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
