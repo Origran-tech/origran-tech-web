@@ -4,64 +4,93 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-origran-red">
       <Head>
         <title>Origran technology</title>
         <meta name="description" content="Site officiel d'origran technology" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
-      <div className="pannels">
-        <div className="pannel1">
-          <img src="logo.png" alt="logo de l'entreprise" className="img1"></img>
-        </div>
-        <h1>Notre entreprise</h1>
-        <p>
-          Nous sommes une entreprise basée en essonne. Nous dévelopons des sites
-          internet en next.js pour vous. Nous avons aussi des projets de
-          développement interne comme lesipake, minage sim 2 et d&apos;autres encore.
+      <div className="flex items-center justify-center example1 md:h-[700px] h-96">
+        <p className="slide text-center text-stroke uppercase text-origran-blue text-3xl md:text-6xl">
+          Welcome to
+          <br />
+          origran technology !
         </p>
-        <h1>Nos projets</h1>
-        <div className="projects">
-          <Link href="https://www.lesipake.origran.com">
-            <a className="project">
-              <img src="lesipake.png" className="lesipakeimg" />
-              <h1>Lesipake</h1>
-              <p>Un site dictionaire</p>
-            </a>
-          </Link>
-          <Link href="https://www.minage.origran.com">
-            <a className="project">
-              <img src="lesipake.png" className="lesipakeimg" />
-              <h1>Minage sim 2</h1>
-              <p>Un jeu de minage</p>
-            </a>
-          </Link>
-          <Link href="https://www.origran.com">
-            <a className="project">
-              <img src="logo.png" className="lesipakeimg" />
-              <h1>A venir</h1>
-              <p>A venir</p>
-            </a>
-          </Link>
-        </div>
-        <iframe
-          width="540"
-          height="710"
-          src="https://e4921acd.sibforms.com/serve/MUIEANsvC8dp6zEBet3rBXEe4SZdfPRfeqVaGt5DATWQIt377r3XwSk6A9G5NBrDh88yqrV2cJaiSh8fwaVSLOk5XunHhKilGbckq7YzKbnZjyH0vXumKGivnFrqByMk3pZzuNUWlVYzedS3fRi3tw7T6lsy1bboQKqay1AgXO07utoR5CiaSQAOKcCtuXBDm8FJLOalk3fkXt_s"
-          frameBorder="0"
-          allowFullScreen
-          style={{
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-            maxWidth: "100%",
-          }}
-        ></iframe>
       </div>
-      <footer>
+      <p className="text-origran-white text-3xl text-center p-8 bg-origran-yellow">
+        Je suis un jeune auto entrepreuneur. Ayant une passion pour la
+        programmation mon
+        <br />
+        but est de faciliter la création de votre site web, pour votre
+        <br />
+        buisness ou non.
+      </p>
+      <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
+        <Image width="760" height="653" src="/../public/blob1.png"></Image>
+        <p className="text-origran-white text-3xl text-center m-8">
+          Votre site web sera opitmisé SEO,
+          <br />
+          il aura plus de chance de se
+          <br />
+          retrouver en haut de la page
+          <br />
+          de recherche.
+        </p>
+      </div>
+      <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
+        <p className="text-origran-white text-3xl text-center p-8">
+          Si vous n’avez pas de design pour votre
+          <br />
+          site, je peux en créer un rien que
+          <br />
+          pour vous !
+        </p>
+        <Image width="660" height="588" src="/../public/blob2.png"></Image>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f5b316"
+          fillOpacity="1"
+          d="M0,128L80,112C160,96,320,64,480,96C640,128,800,224,960,250.7C1120,277,1280,235,1360,213.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+        ></path>
+      </svg>
+      <p className="text-origran-white text-xl text-center md:text-3xl p-8">
+        Toujours pas convaincu ? Alors regardez mes projets !
+      </p>
+      <div className="projects">
+        <Link href="https://www.lesipake.origran.com">
+          <a className="project text-center text-origran-white text-xl">
+            <img src="logo.png" className="lesipakeimg" />
+            <h2>Lesipake</h2>
+            <p>Un site dictionaire</p>
+          </a>
+        </Link>
+        <Link href="https://www.minage.origran.com">
+          <a className="project text-center text-origran-white text-xl">
+            <img src="logo.png" className="lesipakeimg" />
+            <h2>Minage sim 2</h2>
+            <p>Un jeu de minage</p>
+          </a>
+        </Link>
+      </div>
+      <div className="text-origran-white text-center grid">
+        <p className="text-xl md:text-3xl p-8">
+          C&apos;est bon ? Alors voici comment me contacter pour votre site web !
+        </p>
+        <Link href="mailto:leo.malloire@origran.com">
+          <a className="md:text-xl">Mon email : leo.malloire@origran.com</a>
+        </Link>
+        <Link href="https://www.fiverr.com/leo_malloire">
+          <a className="md:text-xl">Mon fiverr (page en anglais)</a>
+        </Link>
+        <Link href="https://linktr.ee/leomalloire">
+          <a className="md:text-xl pb-4">Mon linkt.ee</a>
+        </Link>
+      </div>
+      <footer className="text-origran-white text-center">
         <p>&copy; Website by origran technology</p>
       </footer>
     </div>
