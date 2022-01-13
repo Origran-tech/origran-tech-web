@@ -30,7 +30,7 @@ export default function Home() {
       </p>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
         <Image width="760" height="653" src="/../public/blob1.png"></Image>
-        <p className="text-origran-white text-3xl text-center m-8">
+        <p className="text-origran-white text-3xl text-center m-8 mb-0">
           Votre site web sera opitmisé SEO,
           <br />
           il aura plus de chance de se
