@@ -83,11 +83,8 @@ export default function Home() {
         <Link href="mailto:leo.malloire@origran.com">
           <a className="md:text-xl">Mon email : leo.malloire@origran.com</a>
         </Link>
-        <Link href="https://www.fiverr.com/leo_malloire">
-          <a className="md:text-xl">Mon fiverr (page en anglais)</a>
-        </Link>
         <Link href="https://linktr.ee/leomalloire">
-          <a className="md:text-xl pb-4">Mon linkt.ee</a>
+          <a className="md:text-xl pb-4">Mon linktr.ee</a>
         </Link>
       </div>
       <footer className="text-origran-white text-center">
