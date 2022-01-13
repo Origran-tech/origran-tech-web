@@ -21,17 +21,17 @@ export default function Home() {
         </p>
       </div>
       <p className="text-origran-white text-3xl text-center p-8 bg-origran-yellow">
-        Je suis un jeune auto entrepreuneur. Ayant une passion pour la
+        Je suis un jeune auto entrepreneur. Ayant une passion pour la
         programmation mon
         <br />
         but est de faciliter la création de votre site web, pour votre
         <br />
-        buisness ou non.
+        business ou non.
       </p>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
         <Image width="760" height="653" src="/blob1.png"></Image>
         <p className="text-origran-white text-3xl text-center m-8 mb-0">
-          Votre site web sera opitmisé SEO,
+          Votre site web sera optimisé SEO,
           <br />
           il aura plus de chance de se
           <br />
