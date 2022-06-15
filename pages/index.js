@@ -22,9 +22,9 @@ export default function Home() {
       </div>
       <p className="text-origran-blue text-3xl text-center p-8 bg-origran-yellow">
         Bonjour ! Vous souhaitez que votre évènement soit unique ? Vous êtes au
-        bon endroit ! Origran technology s'occupe de créer un site web pour
+        bon endroit ! Origran technology s&apos;occupe de créer un site web pour
         votre évènement. Vous ne voulez pas que le site soit public ? Pas de
-        problème, il n'apparaîtra pas dans les résultats de recherche !
+        problème, il n&apos;apparaîtra pas dans les résultats de recherche !
       </p>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
         <Image width="760" height="653" src="/blob1.png"></Image>
@@ -32,7 +32,7 @@ export default function Home() {
           Avec ce site, vous pourrez envoyer des invitations par mail. Fini les
           invitations papier perdu ! Affichez les photos prises et vos invités
           pourons les télécharger. Vous pourrez aussi donner des nouvelles
-          pendant la préparation de l'évènement !
+          pendant la préparation de l&apos;évènement !
         </p>
       </div>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
