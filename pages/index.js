@@ -20,33 +20,26 @@ export default function Home() {
           origran technology !
         </p>
       </div>
-      <p className="text-origran-white text-3xl text-center p-8 bg-origran-yellow">
-        Je suis un jeune auto entrepreneur. Ayant une passion pour la
-        programmation mon
-        <br />
-        but est de faciliter la création de votre site web, pour votre
-        <br />
-        business ou non.
+      <p className="text-origran-blue text-3xl text-center p-8 bg-origran-yellow">
+        Bonjour ! Vous souhaitez que votre évènement soit unique ? Vous êtes au
+        bon endroit ! Origran technology s'occupe de créer un site web pour
+        votre évènement. Vous ne voulez pas que le site soit public ? Pas de
+        problème, il n'apparaîtra pas dans les résultats de recherche !
       </p>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
         <Image width="760" height="653" src="/blob1.png"></Image>
-        <p className="text-origran-white text-3xl text-center m-8 mb-0">
-          Votre site web sera optimisé SEO,
-          <br />
-          il aura plus de chance de se
-          <br />
-          retrouver en haut de la page
-          <br />
-          de recherche.
+        <p className="text-origran-blue text-3xl text-center m-8 mb-0">
+          Avec ce site, vous pourrez envoyer des invitations par mail. Fini les
+          invitations papier perdu ! Affichez les photos prises et vos invités
+          pourons les télécharger. Vous pourrez aussi donner des nouvelles
+          pendant la préparation de l'évènement !
         </p>
       </div>
       <div className="md:flex md:items-center md:justify-center bg-origran-yellow">
-        <p className="text-origran-white text-3xl text-center p-8">
-          Si vous n’avez pas de design pour votre
-          <br />
-          site, je peux en créer un rien que
-          <br />
-          pour vous !
+        <p className="text-origran-blue text-3xl text-center p-8">
+          Avec un design complètement personnalisable, rendez votre évènement
+          unique ! Fournissez juste un logo, le texte et des idées de mise en
+          forme pour que votre site ressemble à ce que vous avez imaginé !
         </p>
         <Image width="660" height="588" src="/blob2.png"></Image>
       </div>
@@ -57,29 +50,7 @@ export default function Home() {
           d="M0,128L80,112C160,96,320,64,480,96C640,128,800,224,960,250.7C1120,277,1280,235,1360,213.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
         ></path>
       </svg>
-      <p className="text-origran-white text-xl text-center md:text-3xl p-8">
-        Toujours pas convaincu ? Alors regardez mes projets !
-      </p>
-      <div className="projects">
-        <Link href="https://www.lesipake.origran.com">
-          <a className="project text-center text-origran-white text-xl">
-            <img src="logo.png" className="lesipakeimg" />
-            <h2>Lesipake</h2>
-            <p>Un site dictionaire</p>
-          </a>
-        </Link>
-        <Link href="https://www.minage.origran.com">
-          <a className="project text-center text-origran-white text-xl">
-            <img src="logo.png" className="lesipakeimg" />
-            <h2>Minage sim 2</h2>
-            <p>Un jeu de minage</p>
-          </a>
-        </Link>
-      </div>
       <div className="text-origran-white text-center grid">
-        <p className="text-xl md:text-3xl p-8">
-          C&apos;est bon ? Alors voici comment me contacter pour votre site web !
-        </p>
         <Link href="mailto:leo.malloire@origran.com">
           <a className="md:text-xl">Mon email : leo.malloire@origran.com</a>
         </Link>
